@@ -1,9 +1,9 @@
 import React from 'react'
 
 function ShowTemp({ text }) {
-    let temp = (text.temp - 273).toFixed(2);
-    let temp_minn = (text.temp_min - 273).toFixed(2);
-    let temp_maxx = (text.temp_max - 273).toFixed(2);
+    let temp = (text.temp -273).toFixed(2);
+    let temp_minn = (text.temp_min -273).toFixed(2);
+    let temp_maxx = (text.temp_max -273).toFixed(2);
 
     return (
         <div class="container my-5 herodiv">
@@ -20,7 +20,7 @@ function ShowTemp({ text }) {
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Temp </h5>
-                        <p class="card-text">{temp == -273 ? 0 : temp}°C</p>
+                        <p class="card-text">{temp == -273.00 ? 0 : temp}°C</p>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ function ShowTemp({ text }) {
                 <div class="card">
                     <div class="card-body ">
                         <h5 class="card-title">Temp Min</h5>
-                        <p class="card-text">{temp_minn == -273 ? 0 : temp_minn}°C</p>
+                        <p class="card-text">{temp_minn == -273.00 ? 0 : temp_minn}°C</p>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ function ShowTemp({ text }) {
 
                     <div class="card-body">
                         <h5 class="card-title">Temp Max</h5>
-                        <p class="card-text">{temp_maxx == -273 ? 0 : temp_maxx}°C</p>
+                        <p class="card-text">{temp_maxx == -273.00 ? 0 : temp_maxx}°C</p>
                     </div>
                 </div>
 

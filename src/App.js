@@ -37,7 +37,7 @@ function App() {
                 <div class="icon"> <img src={icon}></img>
                     <h1 >Weather</h1>
                 </div>
-                <div >
+                <div class="searchbutton">
                     <input placeholder="Enter your city.." type="text" className='search' value={city} onChange={(e) => {
                         setCity(e.target.value);
                     }} />
