@@ -39,6 +39,7 @@ function ShowTemp({ text }) {
 
                     <div class="card-body">
                         <h5 class="card-title"><b>Temp Max</b></h5>
+                        
                         <p class="card-text">{temp_maxx == -273.00 ? 0 : temp_maxx}°C</p>
                     </div>
                 </div>
@@ -67,8 +68,7 @@ function ShowTemp({ text }) {
                         <h5 class="card-title"><b>Sunset</b></h5>
                         <p class="card-text">{text.sunset}</p>
                     </div>
-                </div>
-
+                </div> 
 
                 <div class="card">
                     <div class="card-body">
