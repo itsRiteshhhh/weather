@@ -11,7 +11,7 @@ function ShowTemp({ text }) {
 
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Description</h5>
+                        <h5 class="card-title"><b>Description</b></h5>
                         <p class="card-text">{text.description}</p>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ function ShowTemp({ text }) {
  
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Temp </h5>
+                        <h5 class="card-title"><b>Temp</b> </h5>
                         <p class="card-text">{temp == -273.00 ? 0 : temp}°C</p>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ function ShowTemp({ text }) {
 
                 <div class="card">
                     <div class="card-body ">
-                        <h5 class="card-title">Temp Min</h5>
+                        <h5 class="card-title"><b>Temp Min</b></h5>
                         <p class="card-text">{temp_minn == -273.00 ? 0 : temp_minn}°C</p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ function ShowTemp({ text }) {
                 <div class="card">
 
                     <div class="card-body">
-                        <h5 class="card-title">Temp Max</h5>
+                        <h5 class="card-title"><b>Temp Max</b></h5>
                         <p class="card-text">{temp_maxx == -273.00 ? 0 : temp_maxx}°C</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ function ShowTemp({ text }) {
 
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Humidity</h5>
+                        <h5 class="card-title"><b>Humidity</b></h5>
                         <p class="card-text">{text.humidity}%</p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ function ShowTemp({ text }) {
 
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Sunrise</h5>
+                        <h5 class="card-title"><b>Sunrise</b></h5>
                         <p class="card-text">{text.sunrise}</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ function ShowTemp({ text }) {
 
                 <div class="card ">
                     <div class="card-body p-2">
-                        <h5 class="card-title">Sunset</h5>
+                        <h5 class="card-title"><b>Sunset</b></h5>
                         <p class="card-text">{text.sunset}</p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ function ShowTemp({ text }) {
 
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Country</h5>
+                        <h5 class="card-title"><b>Country</b></h5>
                         <p class="card-text">{text.country}</p>
                     </div>
                 </div>
